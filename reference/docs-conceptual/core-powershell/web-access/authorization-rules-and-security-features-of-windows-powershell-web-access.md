@@ -305,7 +305,7 @@ The following are some examples of this scenario.
   example, an administrator creates two user groups, **Admins** and
   **BasicSupport**. The administrator also creates an endpoint with a restricted
   runspace called **PswaEndpoint**, and defines the following two rules:
-  **Admins,\*,\*** and **BasicSupport,\*,PswaEndpoint**. The first rule provides
+  **Admins,\*,\\*** and **BasicSupport,\*,PswaEndpoint**. The first rule provides
   all users in the **Admin** group access to all computers, and the second rule
   provides all users in the **BasicSupport** group access only to those
   computers with **PswaEndpoint**.
@@ -316,7 +316,7 @@ The following are some examples of this scenario.
   they typically have access. Because this is a private test environment, the
   administrator creates an authorization rule that is not secure. - The
   administrator runs the cmdlet `Add-PswaAuthorizationRule * * *`, which uses
-  the wildcard character **\*** to represent all users, all computers, and all
+  the wildcard character **\\*** to represent all users, all computers, and all
   configurations. - This rule is the equivalent of the following:
   `Add-PswaAuthorizationRule -UserName * -ComputerName * -ConfigurationName *`.
 

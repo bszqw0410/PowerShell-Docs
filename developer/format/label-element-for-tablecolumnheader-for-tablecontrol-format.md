@@ -25,7 +25,6 @@ Label Element  for TableColumnHeader for TablControl (Format)
 
 ```xml
 <Label>DisplayedLabel</Label>
-
 ```
 
 ## Attributes and Elements

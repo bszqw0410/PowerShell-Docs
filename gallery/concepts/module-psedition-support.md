@@ -116,13 +116,13 @@ Here are the couple of options to package your module with logic for loading pro
 @{
 
 # Author of this module
-Author = 'Microsoft Corporation'
+Author = 'Microsoft Corporation'
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'PSScriptAnalyzer.psm1'
+RootModule = 'PSScriptAnalyzer.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.6.1'
+ModuleVersion = '1.6.1'
 
 # ---
 }
@@ -136,34 +136,33 @@ Below logic loads the required assemblies depending on the current edition or ve
 #
 # Script module for module 'PSScriptAnalyzer'
 #
-Set-StrictMode -Version Latest
+Set-StrictMode -Version Latest
 
 # Set up some helper variables to make it easier to work with the module
-$PSModule = $ExecutionContext.SessionState.Module
-$PSModuleRoot = $PSModule.ModuleBase
+$PSModule = $ExecutionContext.SessionState.Module
+$PSModuleRoot = $PSModule.ModuleBase
 
 # Import the appropriate nested binary module based on the current PowerShell version
-$binaryModuleRoot = $PSModuleRoot
+$binaryModuleRoot = $PSModuleRoot
 
 
-if (($PSVersionTable.Keys -contains "PSEdition") -and ($PSVersionTable.PSEdition -ne 'Desktop')) {
-    $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'coreclr'
+if (($PSVersionTable.Keys -contains "PSEdition") -and ($PSVersionTable.PSEdition -ne 'Desktop')) {
+    $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'coreclr'
 }
 else
 {
-    if ($PSVersionTable.PSVersion -lt [Version]'5.0') {
-        $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'PSv3'
-    }
+    if ($PSVersionTable.PSVersion -lt [Version]'5.0') {
+        $binaryModuleRoot = Join-Path -Path $PSModuleRoot -ChildPath 'PSv3'
+    }
 }
 
-$binaryModulePath = Join-Path -Path $binaryModuleRoot -ChildPath 'Microsoft.Windows.PowerShell.ScriptAnalyzer.dll'
-$binaryModule = Import-Module -Name $binaryModulePath -PassThru
+$binaryModulePath = Join-Path -Path $binaryModuleRoot -ChildPath 'Microsoft.Windows.PowerShell.ScriptAnalyzer.dll'
+$binaryModule = Import-Module -Name $binaryModulePath -PassThru
 
 # When the module is unloaded, remove the nested binary module that was loaded with it
-$PSModule.OnRemove = {
-    Remove-Module -ModuleInfo $binaryModule
+$PSModule.OnRemove = {
+    Remove-Module -ModuleInfo $binaryModule
 }
-
 ```
 
 ### Option 2: Use $PSEdition variable in the PSD1 file to load the proper DLLs and Nested/Required modules
@@ -252,7 +251,6 @@ Find-Module -Tag PSEdition_Desktop
 
 # Find modules supported on PowerShell Core editions
 Find-Module -Tag PSEdition_Core
-
 ```
 
 ## More details

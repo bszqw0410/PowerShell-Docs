@@ -24,7 +24,6 @@ SelectionSetName Element for EntrySelectedBy for EnumerableExpansion (Format)
 
 ```xml
 <SelectionSetName>NameofSelectionSet</SelectionSetName>
-
 ```
 
 ## Attributes and Elements

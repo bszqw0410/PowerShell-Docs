@@ -24,7 +24,6 @@ TableHeaders Element for TableControl (Format)
 <TableHeaders>
   <TableColumnHeader>...</TableColumnHeader>
 </TableHeaders>
-
 ```
 
 ## Attributes and Elements

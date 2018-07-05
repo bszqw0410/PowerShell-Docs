@@ -200,7 +200,6 @@ class PswsTest_Stream
     SInt32 ReadTimeout;
     SInt32 WriteTimeout;
 };
-
 ```
 
 ## See Also

@@ -129,7 +129,6 @@ List views can provide one or more definitions by using the child elements of th
       </ListEntry>
     </ListEntries>
   </ListControl>
-
 ```
 
 The following XML elements can be used to provide definitions for a list view:
@@ -229,7 +228,6 @@ You can separate the objects that are displayed by the list view into groups. Th
   <Label>Service Type</Label>
   <PropertyName>ServiceType</PropertyName>
 </GroupBy>
-
 ```
 
 The following XML elements are used to define when a group is started:

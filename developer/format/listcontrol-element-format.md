@@ -24,7 +24,6 @@ ListControl Element (Format)
 <ListControl>
   <ListEntries>...</ListEntries>
 </ListControl>
-
 ```
 
 ## Attributes and Elements

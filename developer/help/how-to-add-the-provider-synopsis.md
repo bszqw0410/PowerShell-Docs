@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Add the Provider Synopsis | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/12/2016"

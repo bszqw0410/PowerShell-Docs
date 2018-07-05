@@ -26,7 +26,6 @@ TableControl Element (Format)
   <TableHeaders>...</TableHeaders>
   <TableRowEntries>...</TableRowEntries>
 </TableControl>
-
 ```
 
 ## Attributes and Elements
@@ -71,7 +70,6 @@ This example shows a `TableControl` element that is used to display the properti
     <TableRowEntries>...</TableRowEntries>
   </TableControl>
 </View>
-
 ```
 
 ## See Also

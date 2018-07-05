@@ -42,7 +42,6 @@ The following example shows a custom control that is defined in the Certificates
     </CustomControl>
   </Control>
 </Controls>
-
 ```
 
 ## See Also

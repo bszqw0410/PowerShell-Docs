@@ -73,7 +73,6 @@ To start with, each view has a `Name` element that specifies a user friendly nam
     <CustomControl>...</CustomControl>
   </View>
 </ViewDefinitions>
-
 ```
 
 Within the control element, you can define one or more *entry* elements. If you use multiple definitions, you must specify which .NET Framework objects use each definition. Typically only one entry, with only one definition, is needed for each control.
@@ -95,7 +94,6 @@ Within the control element, you can define one or more *entry* elements. If you 
     <ListEntry>
   </ListEntries>
 </ListControl>
-
 ```
 
 Within each entry element of a view, you specify the *item* elements that define the .NET Framework properties or scripts that are displayed by that view.
@@ -107,7 +105,6 @@ Within each entry element of a view, you specify the *item* elements that define
   <ListItem>...</ListItem>
   <ListItem>...</ListItem>
 </ListItems>
-
 ```
 
 As shown in the preceding examples, the formatting file can contain multiple views, a view can contain multiple definitions, and each definition can contain multiple items.
@@ -148,7 +145,6 @@ The following example shows the XML tags used to define a table view that contai
     </TableControl)
   </View>
 </ViewDefinitions>
-
 ```
 
 ## See Also

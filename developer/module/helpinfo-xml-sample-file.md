@@ -39,5 +39,4 @@ This topic displays a sample of a well-formed Updatable Help Information file, c
     </UICulture>
    </SupportedUICultures>
 </HelpInfo>
-
 ```

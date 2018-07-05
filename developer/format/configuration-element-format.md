@@ -24,7 +24,6 @@ Configuration Element
   <Controls>...</Controls>
   <ViewDefinitions>...</ViewDefinitions>
 </Configuration>
-
 ```
 
 ## Attributes and Elements

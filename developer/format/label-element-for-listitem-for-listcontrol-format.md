@@ -64,7 +64,6 @@ The following example shows how to add a label to a row.
   <Label>Property1: </Label>
   <PropertyName>DotNetProperty1</PropertyName>
 </ListItem>
-
 ```
 
 ## See Also

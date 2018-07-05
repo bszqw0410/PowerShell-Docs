@@ -63,7 +63,6 @@ public class TestProcessRecordClassTemplate : Cmdlet
         WriteObject("This is a test of the ProcessRecord template.");
     }
 }
-
 ```
 
 ## To override the EndProcessing method

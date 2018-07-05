@@ -123,7 +123,6 @@ namespace Microsoft.Samples. HYPERLINK "VBScript:u(%227%22,19)" Management. HYPE
     }
 
 }
-
 ```
 
 ### Role-based authorization

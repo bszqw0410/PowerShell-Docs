@@ -23,7 +23,7 @@ Often, you will have to design a cmdlet to run against a group of resources rath
 
  Many Windows PowerShell cmdlets support wildcard characters for their parameter values. For example, almost every cmdlet that has a `Name` or `Path` parameter supports wildcard characters for these parameters. (Although most cmdlets that have a `Path` parameter also have a `LiteralPath` parameter that does not support wildcard characters.) The following command shows how a wildcard character is used to return all the cmdlets in the current session whose name contains the Get verb.
 
- **PS>get-command get-\***
+ **PS>get-command get-\\***
 
 ## Supported Wildcard Characters
 

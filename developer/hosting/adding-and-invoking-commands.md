@@ -37,7 +37,7 @@ After creating a runspace, you can add Windows PowerShellcommands and scripts to
    ps.Invoke();
    ```
 
- If you call the [System.Management.Automation.Powershell.Addcommand*](/dotnet/api/System.Management.Automation.PowerShell.AddCommand) method more than once before you call the [System.Management.Automation.Powershell.Invoke*](/dotnet/api/System.Management.Automation.PowerShell.Invoke) method, the result of the first command is piped to the second, and so on. If you do not want to pipe the result of a previous command to a command, add it by calling the [System.Management.Automation.Powershell.Addstatement*](/dotnet/api/System.Management.Automation.PowerShell.AddStatement) instead.
+   If you call the [System.Management.Automation.Powershell.Addcommand*](/dotnet/api/System.Management.Automation.PowerShell.AddCommand) method more than once before you call the [System.Management.Automation.Powershell.Invoke*](/dotnet/api/System.Management.Automation.PowerShell.Invoke) method, the result of the first command is piped to the second, and so on. If you do not want to pipe the result of a previous command to a command, add it by calling the [System.Management.Automation.Powershell.Addstatement*](/dotnet/api/System.Management.Automation.PowerShell.AddStatement) instead.
 
 ### AddParameter
 
@@ -68,7 +68,6 @@ parameters.Add("Id", "12768");
 PowerShell.Create().AddCommand("Get-Process")
    .AddParameters(parameters)
       .Invoke()
-
 ```
 
 ### AddStatement

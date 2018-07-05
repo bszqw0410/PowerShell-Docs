@@ -60,7 +60,6 @@ The following example shows the label for a new group. The displayed label would
   <Label>Service Type</Label>
   <PropertyName>ServiceType</PropertyName>
 </GroupBy>
-
 ```
 
 For an example of a complete formatting file that includes this element, see [Wide View (GroupBy)](./wide-view-groupby.md).

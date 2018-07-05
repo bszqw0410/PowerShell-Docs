@@ -28,7 +28,6 @@ TypeName Element for SelectionCondition for GroupBy  (Format)
 
 ```xml
 <TypeName>Nameof.NetType</TypeName>
-
 ```
 
 ## Attributes and Elements

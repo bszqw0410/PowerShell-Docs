@@ -22,7 +22,6 @@ Name Element for Control for Controls for Configuration (Format)
 
 ```xml
 <Name>NameOfControl</Name>
-
 ```
 
 ## Attributes and Elements

@@ -120,7 +120,6 @@ In the following example, the view provides a single definition that displays th
         </TableColumnItems>
       </TableRowEntry>
     </TableRowEntries>
-
 ```
 
 The following XML elements can be used to provide definitions for a row:

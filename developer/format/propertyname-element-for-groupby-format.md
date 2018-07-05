@@ -62,7 +62,6 @@ The following example shows how to start a new group when the value of a propert
   <Label>Service Type</Label>
   <PropertyName>ServiceType</PropertyName>
 </GroupBy>
-
 ```
 
 For an example of a complete formatting file that includes this element, see [Wide View (GroupBy)](./wide-view-groupby.md).

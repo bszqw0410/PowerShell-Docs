@@ -85,7 +85,6 @@ C:\Program Files
         Fabrikam
           Fabrikam.psd1 (module manifest)
           Fabrikam.dll (module assembly)
-
 ```
 
 ### Effect of Incorrect Installation
@@ -147,7 +146,6 @@ C:\Program Files
         Fabrikam
           Fabrikam.psd1 (module manifest)
           Fabrikam.dll (module assembly)
-
 ```
 
 To enable the Windows PowerShell module discovery features to find the Fabrikam module, the Fabrikam module installer adds the module location to the value of the **PSModulePath** environment variable.
@@ -171,7 +169,6 @@ C:\Program Files
       Fabrikam
         Fabrikam.psd1 (module manifest)
         Fabrikam.dll (module assembly)
-
 ```
 
 Then, the installer adds the subdirectory path to the value of the **PSModulePath** environment variable.

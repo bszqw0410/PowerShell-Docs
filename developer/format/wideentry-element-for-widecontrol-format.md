@@ -66,7 +66,6 @@ The following example shows a `WideEntry` element that defines a single `WideIte
     </WideItem>
   </WideEntry>
 </WideEntries>
-
 ```
 
 For a complete example of a wide view, see [Wide View (Basic)](./wide-view-basic.md).

@@ -29,7 +29,6 @@ TypeName Element for SelectionCondition for Controls for View (Format)
 
 ```xml
 <TypeName>Nameof.NetType</TypeName>
-
 ```
 
 ## Attributes and Elements

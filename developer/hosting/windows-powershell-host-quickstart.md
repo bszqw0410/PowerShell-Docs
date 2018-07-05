@@ -70,7 +70,6 @@ parameters.Add("Id", "12768");
 PowerShell.Create().AddCommand("Get-Process")
    .AddParameters(parameters)
       .Invoke()
-
 ```
 
 ### AddStatement

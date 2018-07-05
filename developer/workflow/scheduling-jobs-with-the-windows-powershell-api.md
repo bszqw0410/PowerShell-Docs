@@ -25,7 +25,6 @@ ScheduledJobTrigger jobTrigger = ScheduledJobTrigger.CreateOnceTrigger(
                     null,                               // No repetition interval duration
                     1,                                  // Trigger Id
                     true);                              // Create trigger enabled
-
 ```
 
 ## Defining the Job
@@ -51,7 +50,6 @@ string schedJobDefName = "MySampleSchedJob";
                 ScriptBlock scriptBlock = ScriptBlock.Create(@"1..5 | foreach {sleep 1; ""SchedJobOutput $_""}");
                 jobDefParameters.Add("ScriptBlock", scriptBlock);  // A scriptblock or script FilePath
                                                                    // is required.
-
 ```
 
 ## Creating the Invocation and Job Definition Objects
@@ -69,7 +67,6 @@ ScheduledJobInvocationInfo jobInvocationInfo = new ScheduledJobInvocationInfo(
                     null,                                       // No custom options.  We accept default.
                     null);                                      // No credentials.  PowerShell job is run
                                                                 // in default Task Scheduler process, account.
-
 ```
 
 ## Registering the Job with the Task Scheduler
@@ -80,7 +77,6 @@ The following code registers the job with the [Windows Task Scheduler](http://go
 schedJobDefinition.Register();
                 registrationSucceeded = true;
                 Console.WriteLine("Scheduled job has been registered.  Waiting 30 seconds for it to be started and run.");
-
 ```
 
 ## Complete Code Example
@@ -246,5 +242,4 @@ namespace Microsoft.Samples.PowerShell.ScheduledJob
         }
     }
 }
-
 ```

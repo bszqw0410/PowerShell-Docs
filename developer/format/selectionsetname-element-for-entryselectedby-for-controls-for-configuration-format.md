@@ -26,7 +26,6 @@ SelectionSetName Element for EntrySelectedBy for Controls for Configuration (For
 
 ```xml
 <SelectionSetName>NameofSelectionSet</SelectionSetName>
-
 ```
 
 ## Attributes and Elements

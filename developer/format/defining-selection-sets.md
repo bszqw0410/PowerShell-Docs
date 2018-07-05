@@ -65,7 +65,6 @@ The previous selection set is referenced in the `ViewSelectedBy` element of a ta
     <TableControl>...</TableControl>
   </View>
 </ViewDefinitions>
-
 ```
 
 ## XML Elements
@@ -80,7 +79,7 @@ The previous selection set is referenced in the `ViewSelectedBy` element of a ta
 
 - The [Types](./types-element-for-selectionset-format.md) element specifies the .NET Framework types of the objects of the selection set. (Within formatting files, objects are specified by their .NET Framework type.)
 
- The following XML elements are used to specify a selection set.
+  The following XML elements are used to specify a selection set.
 
 - The following element specifies the selection set to use in all the definitions of the view:
 

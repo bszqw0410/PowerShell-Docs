@@ -64,7 +64,6 @@ This example shows a `TableColumnItem` element that specifies the `Status` prope
    <Alignment>Centered</Alignment>
   <PropertyName>Status</PropertyName>
 </TableColumnItem>
-
 ```
 
 ## See Also

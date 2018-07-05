@@ -62,7 +62,6 @@ The [System.Management.Automation.Provider.Providercapabilities](/dotnet/api/Sys
 
 ```csharp
 [CmdletProvider(RegistryProvider.ProviderName, ProviderCapabilities.ShouldProcess | ProviderCapabilities.Transactions)]
-
 ```
 
 ## Provider cmdlet help

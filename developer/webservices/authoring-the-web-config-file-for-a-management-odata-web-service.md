@@ -52,7 +52,6 @@ The following is an example of what the web.config file for your web service loo
       </security>
   </system.webServer>
 </configuration>
-
 ```
 
 ## See Also

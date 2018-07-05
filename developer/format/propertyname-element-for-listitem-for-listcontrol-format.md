@@ -66,7 +66,6 @@ ListItem>
   <Label>NameOfProperty</Label>
   <PropertyName>.NetTypeProperty</PropertyName>
 </ListItem>
-
 ```
 
 ## See Also

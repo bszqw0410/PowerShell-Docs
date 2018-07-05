@@ -85,7 +85,6 @@ This example shows a `View` element that defines a table view for the [System.Se
     <TableControl>...</TableControl>
   </View>
 </ViewDefinitions>
-
 ```
 
 ## See Also

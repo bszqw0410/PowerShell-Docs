@@ -37,7 +37,6 @@ ipoint                       lsass
 lsm                          MOM
 MSASCui                      notepad
 ...                          ...
-
 ```
 
 ## Defining the Wide View
@@ -62,7 +61,6 @@ View>
     </WideEntries>
   </WideControl>
 </View>
-
 ```
 
 The following XML elements are used to define a wide view:
@@ -194,7 +192,6 @@ You can separate the objects that are displayed by the wide view into groups. Th
   <Label>Service Type</Label>
   <PropertyName>ServiceType</PropertyName>
 </GroupBy>
-
 ```
 
 The following XML elements are used to define when a group is started:

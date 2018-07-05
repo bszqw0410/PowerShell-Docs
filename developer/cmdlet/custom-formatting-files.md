@@ -72,7 +72,6 @@ ViewDefinitions
     </TableControl)
   </View>
 </ViewDefinitions>
-
 ```
 
 ## See Also

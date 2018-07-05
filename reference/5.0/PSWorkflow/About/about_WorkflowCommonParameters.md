@@ -133,16 +133,17 @@ The default value is **Default**.
 
 Valid values are:
 
-|Name |Description |
-|---------|---------|
-|**Unchanged** | The authentication level is the same as the previous command. |
-|**Default** | Windows Authentication. |
-|**None** | No COM authentication.   |
-|**Connect** | Connect-level COM authentication.|
-|**Call** | Call-level COM authentication.   |
-|**Packet** | Packet-level COM authentication.|
-|**PacketIntegrity** | Packet Integrity-level COM authentication.  |
-|**PacketPrivacy** | Packet Privacy-level COM authentication. |         |
+
+|        Name         |                          Description                          |
+|---------------------|---------------------------------------------------------------|
+|    **Unchanged**    | The authentication level is the same as the previous command. |
+|     **Default**     |                    Windows Authentication.                    |
+|      **None**       |                    No COM authentication.                     |
+|     **Connect**     |               Connect-level COM authentication.               |
+|      **Call**       |                Call-level COM authentication.                 |
+|     **Packet**      |               Packet-level COM authentication.                |
+| **PacketIntegrity** |          Packet Integrity-level COM authentication.           |
+|  **PacketPrivacy**  |           Packet Privacy-level COM authentication.            |
 
 #### -PSCertificateThumbprint \<String\>
 

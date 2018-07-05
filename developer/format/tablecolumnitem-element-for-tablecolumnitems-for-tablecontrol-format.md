@@ -70,7 +70,6 @@ This example shows a `TableColumnItem` element that displays the value of the `S
    <Alignment>Centered</Alignment>
   <PropertyName>Status</PropertyName>
 </TableColumnItem>
-
 ```
 
 ## See Also

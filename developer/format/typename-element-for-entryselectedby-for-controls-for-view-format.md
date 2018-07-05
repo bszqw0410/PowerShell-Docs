@@ -27,7 +27,6 @@ TypeName Element for EntrySelectedBy for Controls for View (Format)
 
 ```xml
 <TypeName>Nameof.NetType</TypeName>
-
 ```
 
 ## Attributes and Elements

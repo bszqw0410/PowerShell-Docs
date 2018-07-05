@@ -73,7 +73,6 @@ The following example shows a `TableRowEntries` element that defines a row that 
     </TableColumnItems>
   </TableRowEntry>
 </TableRowEntries>
-
 ```
 
 ## See Also

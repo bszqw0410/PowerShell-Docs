@@ -53,7 +53,6 @@ This is a sample output that results by following these steps.
 Id              Name            State      HasMoreData     Location             Command
 --              ----            -----      -----------     --------             -------
 1               26932870-d3b... NotStarted False                                 Write-Host "A f...
-
 ```
 
 ```powershell

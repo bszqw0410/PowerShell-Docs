@@ -71,7 +71,6 @@ The following example shows a `TableColumnItems` element that defines three prop
     <PropertyName>DisplayName</PropertyName>
   </TableColumnItem>
 </TableColumnItems>
-
 ```
 
 ## See Also

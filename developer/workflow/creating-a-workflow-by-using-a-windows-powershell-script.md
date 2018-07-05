@@ -43,5 +43,4 @@ workflow Join-Domain
         }
     }
  }
-
 ```

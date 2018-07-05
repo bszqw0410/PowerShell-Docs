@@ -67,7 +67,6 @@ For example, the following directory structure diagram shows the location of the
                      \about_SampleModule.help.txt
                      \SampleModule.dll-help.xml
                      \SampleNestedModule.dll-help.xml
-
 ```
 
 > [!NOTE]

@@ -24,7 +24,6 @@ Types Element (Format)
 <Types>
   <TypeName>Nameof.NetType</TypeName>
 </Types>
-
 ```
 
 ## Attributes and Elements

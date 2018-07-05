@@ -25,7 +25,6 @@ WideEntries Element (Format)
 <WideEntries>
   <WideEntry>...</WideEntry>
 </WideEntries>
-
 ```
 
 ## Attributes and Elements

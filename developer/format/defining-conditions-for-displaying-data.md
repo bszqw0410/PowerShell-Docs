@@ -29,7 +29,6 @@ In the following example, a selection condition is specified for a definition of
   <TableColumnItems>
   </TableColumnItems>
 </TableRowEntry>
-
 ```
 
 There is no limit to the number of selection conditions that you can specify for a definition of a view or control. The only requirements are the following:
@@ -48,7 +47,6 @@ You can also specify when an item of a list view or control is used by including
     <ScriptBlock>ScriptToEvaluate</ScriptBlock>
   </ItemSelectionCondition>
 </ListItem>
-
 ```
 
 You can specify only one selection condition for an item. And the condition must specify one property name or script to trigger the condition, but cannot specify both.

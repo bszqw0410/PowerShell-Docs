@@ -25,7 +25,6 @@ CustomEntries Element for CustomControl for Configuration (Format)
 <CustomEntries>
   <CustomEntry>...</CustomEntry>
 </CustomEntries>
-
 ```
 
 ## Attributes and Elements

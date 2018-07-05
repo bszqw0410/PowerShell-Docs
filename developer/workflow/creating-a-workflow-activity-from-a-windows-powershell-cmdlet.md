@@ -62,7 +62,6 @@ namespace MakeActivity
         }
     }
 }
-
 ```
 
 ## Example
@@ -117,5 +116,4 @@ namespace MakeActivity
         }
     }
 }
-
 ```

@@ -27,7 +27,6 @@ CustomEntry Element for CustomControl for Controls for Configuration (Format)
   <EntrySelectedBy>...</EntrySelectedBy>
   <CustomItem>...</CustomItem>
 </CustomEntry>
-
 ```
 
 ## Attributes and Elements

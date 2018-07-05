@@ -27,7 +27,6 @@ The following example shows how Windows PowerShell extends the [System.Array](/d
     </AliasProperty>
   </Members>
 </Type>
-
 ```
 
 To see this new alias property, use a [Get-Member](/powershell/module/Microsoft.PowerShell.Utility/Get-Member) command on any array, as shown in the following example.

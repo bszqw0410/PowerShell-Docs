@@ -35,7 +35,6 @@ Declare the provider to derive from the [System.Management.Automation.Provider.I
    {
 
   }
-
 ```
 
 ### Implementing GetItem

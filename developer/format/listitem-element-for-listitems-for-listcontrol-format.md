@@ -81,7 +81,6 @@ This example shows the XML elements that define three rows of the list view. The
       </ListItem>
     </ListItems>
 </ListEntry>
-
 ```
 
 ## See Also

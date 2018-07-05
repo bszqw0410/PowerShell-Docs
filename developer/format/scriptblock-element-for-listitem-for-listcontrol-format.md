@@ -65,7 +65,6 @@ The following example shows how to specify the property whose value is displayed
 <ListItem>
   <ScriptBlock>$_.ProcessName + ":" $_.Id</ScriptBlock>
 </ListItem>
-
 ```
 
 ## See Also

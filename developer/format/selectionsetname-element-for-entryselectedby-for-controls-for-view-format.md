@@ -28,7 +28,6 @@ SelectionSetName Element for EntrySelectedBy for Controls for View (Format)
 
 ```xml
 <SelectionSetName>NameofSelectionSet</SelectionSetName>
-
 ```
 
 ## Attributes and Elements

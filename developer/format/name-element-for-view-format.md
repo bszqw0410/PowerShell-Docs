@@ -62,7 +62,6 @@ The following example shows a `View` element that defines a table view for the [
   </ViewSelectedBy>
   <TableControl>...</TableControl>
 </View>
-
 ```
 
 ## See Also

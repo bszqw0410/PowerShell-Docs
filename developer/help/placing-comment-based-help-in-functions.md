@@ -40,7 +40,6 @@ function MyProcess
 
     Get-Process powershell
 }
-
 ```
 
 ### Help at the End of a Function Body
@@ -58,7 +57,6 @@ function MyFunction
        The MyProcess function gets the Windows PowerShell process.
     #>
 }
-
 ```
 
 ### Help Before the Function Keyword
@@ -72,5 +70,4 @@ function MyFunction
     The MyProcess function gets the Windows PowerShell process.
 #>
 function MyFunction { Get-Process powershell}
-
 ```

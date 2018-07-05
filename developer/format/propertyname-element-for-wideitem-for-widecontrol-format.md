@@ -74,7 +74,6 @@ View>
     </WideEntries>
   </WideControl>
 </View>
-
 ```
 
 ## See Also
