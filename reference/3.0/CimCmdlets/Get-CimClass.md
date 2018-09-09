@@ -10,6 +10,7 @@ schema: 2.0.0
 ## SYNOPSIS
 Gets a list of CIM classes in a specific namespace.
 
+在指定的命名空间，获得一个CIM类列表。
 ## SYNTAX
 
 ### ComputerSet (Default)
